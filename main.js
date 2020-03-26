@@ -19,10 +19,14 @@ function setAge(person, age) {
 }
 
 function giveBirthday(person) {
-  if(person.age === undefined){
-    return person.age = 1
-  } else 
-  return person.age+=1
+  person.age === undefined ? 
+  person.age = 1 : person.age+= 1
+
+
+  // if(person.age === undefined){
+  //   return person.age = 1
+  // } else 
+  // return person.age+=1
 }
 
 function marry(person1, person2) {
